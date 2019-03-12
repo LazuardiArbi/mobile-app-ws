@@ -25,7 +25,7 @@ import java.util.List;
 public class UserServiceImpl implements UserService {
 
 //    method yang berada disini semua berpusat di UserService interface
-
+//  UserEntitiy Digunakan untuk membuat object yang nantinya datanya bisa di lanjutkan ke Database
     @Autowired
     UserRepository userRepository;
 
